@@ -1,27 +1,42 @@
-# Quotes
+# Project Name: Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
-## Development server
+### Project Description
+This is an Angular Project designed to provide a platform for users to create Quotes and then having those quotes rated by other users on whether they are inspirational or not.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="images/Quotes.png">
 
-## Code scaffolding
+### Setup Instructions
+The operations of the project are fairly straighforward. 
+The application ia an Angular project and makes use of bootstrap as well as a custom CSS file.
+Google Chrome is highly recommend to run the program.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* This website requires that you have data access to internet data.
 
-## Build
+### BDD
+* Create HTML forms as primary step.
+* For business logic: Use constructors to store input data.
+* Use innerHTML to output the order to user for tracking.
+* Create a function that gives the total cost for just one pizza.
+* Calculate the delivery fee as part of total cost.
+* Add option for ni delivery.
+* Calculate total cost if user inputs two pizzas with different properties.
+* create a  loop to calculate as many pizza entries as user requires
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Author: [DENNIS NJENGA](https://github.com/deepeters)
+### Contact Infomation:
+         Email: dennis@dennis.com
+         Phone: +254712345678
 
-## Running unit tests
+### Technology Used
+1. AngularJS
+2. HTML
+3. CSS
+4. Javascript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Frameworks Used
+1. Git
+2. Bootstrap
+3. jQuery
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### LICENSE: [MIT LICENSE](https://raw.githubusercontent.com/deepeters/Quotes/master/LICENSE)
