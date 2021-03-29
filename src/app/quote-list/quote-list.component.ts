@@ -18,4 +18,3 @@ export class QuoteListComponent implements OnInit {
     this.quotes.splice(id, 1);
   };
 }
-}
