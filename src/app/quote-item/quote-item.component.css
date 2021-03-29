@@ -1,0 +1,33 @@
+.quote-container {
+    background-color: #111111;
+    margin: 10px;
+    width: 520px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-quote{
+    padding-top: 20px;
+    height: 140px;
+  }
+  
+  .quote-author {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quote-details {
+    margin-top: 10px;
+    border-top: 1px solid white;
+  
+  }
+  
+  .details-button {
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  

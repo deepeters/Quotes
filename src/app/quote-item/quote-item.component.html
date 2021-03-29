@@ -1,1 +1,46 @@
-<p>quote-item works!</p>
+<div class="quote-container">
+    <div class="quote-wrapper">
+      <div class="title">
+        <div class="quote-title">{{ quote.quoteTitle }}</div>
+        <div class="icon">
+          <img
+            *ngIf="quote.showDetails"
+            src="../../assets/img/trash.png"
+            alt=""
+            (click)="deleteQuote(quote.id)"
+          />
+        </div>
+      </div>
+      <div class="main-quote">
+        <p>
+          {{ quote.quoteText }}
+        </p>
+      </div>
+      <div class="quote-author">
+        <div class="author">{{ quote.authorName }}</div>
+        <div class="posted-date">
+          posted {{ quote.datePosted | dateCount }} days ago
+        </div>
+      </div>
+      <div class="details-button">
+        <button
+          class="btn btn-outline-primary mt-3 text-white"
+          *ngIf="!quote.showDetails"
+          (click)="toggleShowDetails()"
+        >
+          More
+        </button>
+        <button
+          class="btn btn-outline-primary mt-3 text-white"
+          *ngIf="quote.showDetails"
+          (click)="toggleShowDetails()"
+        >
+          Less
+        </button>
+      </div>
+    </div>
+    <div class="quote-details mt-3" *ngIf="quote.showDetails">
+      <app-quote-item-details [quote]="quote" (likeQoute)="upvote()" (dislikeQuote)="downvote()"></app-quote-item-details>
+    </div>
+  </div>
+  
