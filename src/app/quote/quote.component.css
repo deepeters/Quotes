@@ -6,7 +6,7 @@
   
   .navbar {
     padding: 2px !important;
-    background-color: #111111 !important;
+    background-color: grey !important;
     border-radius: 20px;
   }
   
@@ -20,7 +20,7 @@
     transition: 0.5s all;
   }
   .newBtn:hover {
-    border: 1px solid #111111;
+    border: 1px solid green;
   }
   
   .navbar .navbar-brand {
