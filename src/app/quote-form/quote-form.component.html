@@ -1,11 +1,11 @@
 <div class="form-wrapper">
-    <h3 class="text-center">Add Quote</h3>
+    <h3 class="text-center">Make your own Quote</h3> <br> <br>
     <form
       #quoteForm="ngForm"
       (ngSubmit)="quoteForm.form.valid && submitQuote(); quoteForm.resetForm({})"
     >
       <div class="mb-3">
-        <label for="quoteTitle" class="form-label">Quote Title</label>
+        <label for="quoteTitle" class="form-label">Quote Theme (e.g. Courage)</label>
         <input
           type="text"
           class="form-control"
@@ -34,7 +34,7 @@
           placeholder="Add Quote"
         ></textarea>
       </div>
-      <div class="mb-3">
+      <!--<div class="mb-3">
         <label for="quoteAuthor" class="form-label">Quote Author</label>
         <input
           type="text"
@@ -44,8 +44,8 @@
           name="authorName"
           #authorName="ngModel"
           placeholder="Add author name"
-        />
-      </div>
+        /> 
+      </div> -->
       <div class="mb-3">
         <label for="userName" class="form-label">Your Name</label>
         <input
