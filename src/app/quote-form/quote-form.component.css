@@ -9,7 +9,7 @@
   textarea[type="text"],
   textarea[type="text"]:focus {
     
-    color: #fff;
+    color: black;
     font-size: 20px;
     outline: none;
   }

@@ -13,7 +13,7 @@
           [(ngModel)]="newQuote.quoteTitle"
           name="quoteTitle"
           #quoteTitle="ngModel"
-          placeholder="Add Quote title"
+          placeholder="Add a Qoute Theme"
           required
           [ngClass]="{
             'border-danger': quoteTitle.pristine && quoteTitle.invalid
@@ -21,7 +21,7 @@
         />
       </div>
       <div class="mb-3">
-        <label for="quote" class="form-label">Quote</label>
+        <label for="quote" class="form-label">Quote (e.g. To live is to laugh)</label>
         <textarea
           id="quote"
           type="text"
@@ -31,7 +31,7 @@
           [(ngModel)]="newQuote.quoteText"
           name="  quoteText"
           #quote="ngModel"
-          placeholder="Add Quote"
+          placeholder="Add the Quote"
         ></textarea>
       </div>
       <!--<div class="mb-3">
@@ -47,7 +47,7 @@
         /> 
       </div> -->
       <div class="mb-3">
-        <label for="userName" class="form-label">Your Name</label>
+        <label for="userName" class="form-label">Your Name (e.g. Jane Smith)</label>
         <input
           type="text"
           class="form-control"
@@ -55,7 +55,7 @@
           [(ngModel)]="newQuote.userName"
           name="userName"
           #userName="ngModel"
-          placeholder="Add your name"
+          placeholder="Add Your Name"
         />
       </div>
   

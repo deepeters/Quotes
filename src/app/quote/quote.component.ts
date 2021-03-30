@@ -41,6 +41,17 @@ export class QuoteComponent implements OnInit {
       0,
       false
     ),
+    new Quotes(
+      1,
+      'Pan-Africanism',
+      'To be African is to be Awesome',
+      'Dennis Peters',
+      'DP',
+      new Date(2020, 10, 31),
+      0,
+      0,
+      false
+    ),
   ];
 
   constructor() { }
