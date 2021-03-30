@@ -9,6 +9,7 @@ import { Quotes } from '../quotes';
 export class QuoteItemComponent implements OnInit {
   @Input() quote: Quotes;
   @Output() delete = new EventEmitter();
+  
   constructor() { }
 
   ngOnInit(): void {
