@@ -19,7 +19,7 @@
       <div class="quote-author">
         <div class="author">{{ quote.authorName }}</div>
         <div class="posted-date">
-          posted {{ quote.datePosted | dateCount }} days ago
+          posted {{ quote.datePosted | datePipe }} days ago
         </div>
       </div>
       <div class="details-button">
@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="quote-details mt-3" *ngIf="quote.showDetails">
-      <app-quote-item-details [quote]="quote" (likeQoute)="upvote()" (dislikeQuote)="downvote()"></app-quote-item-details>
+      <app-quote-details [quote]="quote" (likeQoute)="upvote()" (dislikeQuote)="downvote()"></app-quote-details>
     </div>
   </div>
   
