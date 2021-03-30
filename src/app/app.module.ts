@@ -10,6 +10,7 @@ import { QuoteListComponent } from './quote-list/quote-list.component';
 import { QuoteItemComponent } from './quote-item/quote-item.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatePipePipe } from './date-pipe.pipe';
+import { UpvoteDownvoteDirective } from './upvote-downvote.directive';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { DatePipePipe } from './date-pipe.pipe';
     QuoteListComponent,
     QuoteItemComponent,
     QuoteDetailsComponent,
-    DatePipePipe
+    DatePipePipe,
+    UpvoteDownvoteDirective
   ],
   imports: [
     BrowserModule,
