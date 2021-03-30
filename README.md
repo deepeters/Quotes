@@ -13,18 +13,38 @@ Google Chrome is highly recommend to run the program.
 
 * This website requires that you have data access to internet data.
 
-### BDD
-* Create HTML forms as primary step.
-* For business logic: Use constructors to store input data.
-* Use innerHTML to output the order to user for tracking.
-* Create a function that gives the total cost for just one pizza.
-* Calculate the delivery fee as part of total cost.
-* Add option for ni delivery.
-* Calculate total cost if user inputs two pizzas with different properties.
-* create a  loop to calculate as many pizza entries as user requires
 
+# BDD
+
+## Input
+
+
+* Quote Theme
+* Quote
+* Quote Author
+
+Behaviour User inputs the above inputs,clicks the add quote button and a new quote is created. If the user does not enter input and clicks button Add Quote,the user is prompted to input missing fields. When the user enters items in a field and then clears the field, an alert message is shown.
+
+## Output
+
+* New quote displayed by a card
+* Upvote and Downvote
+
+Button Clicks
+
+* Thumbs-up icon
+* Thumbs-down icon
+* Behaviour
+
+User clicks on the thumbs up button to upvote and on the thumbs down button to downvote. The displayed quotes will be arranged from the highest voted quote to the least voted quote.The highest upvoted quote is then highleted and displayed as the most upvoted quote.
+
+* Most upvoted quote is highlighted
+* Quotes are arranged from highest upvoted to least upvoted.
+
+
+# Contact Infomation:
 ### Author: [DENNIS NJENGA](https://github.com/deepeters)
-### Contact Infomation:
+
          Email: dennis@dennis.com
          Phone: +254712345678
 
